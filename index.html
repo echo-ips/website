@@ -1,0 +1,394 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>echo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="echo - UWB IPS devices and SaaS" />
+        <meta name="keywords" content="echo, application, UWB, IPS, SaaS, Tracking, Indoor" />
+        <!-- favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <!-- Bootstrap css -->
+        <link href="assets/styles/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- Icons -->
+        <link href="assets/styles/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <!-- Slider -->               
+        <link rel="stylesheet" href="assets/styles/tiny-slider.css"/>
+        <!-- tobii css -->
+        <link href="assets/styles/tobii.min.css" rel="stylesheet" type="text/css" />
+        <!-- Main css File -->
+        <link href="assets/styles/style.min.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <!-- Loader Start -->
+        <div id="preloader">
+            <div id="status">
+                <div class="logo">
+                    <img src="assets/images/svgs/echo.svg" height="25" class="d-block mx-auto" alt="">
+                </div>
+                <div class="sk-chase mt-4">
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Loader End -->
+
+        <!-- Navbar STart -->
+        <header id="topnav" class="defaultscroll sticky">
+            <div class="container">
+                <!-- Logo container-->
+                <div>
+                    <a class="logo" href="index.html">
+                        <img src="assets/images/svgs/echo.svg" height="22" alt="">
+                    </a>
+                </div>                 
+                <!-- End Logo container-->
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+        
+                <div id="navigation">
+                    <!-- Navigation Menu-->   
+                    <ul class="navigation-menu" id="navmenu-nav">
+                        <li class="has-submenu">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="#setup">Setup</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="#products">Products</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul><!--end navigation menu-->
+                </div><!--end navigation-->
+            </div><!--end container-->
+        </header><!--end header-->
+        <!-- Navbar End -->
+
+        <!-- Hero Start -->
+        <section class="bg-home d-flex align-items-center" style="height: auto;" id="home">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 text-center mt-0 mt-md-5 pt-0 pt-md-5">
+                        <div class="title-heading margin-top-100">
+                            <h1 class="display-4 fw-bold mb-3">Precision in Every <span class="text-primary">Location...</span></h1>
+                            <p class="para-desc mx-auto text-muted">Unlock next-level precision with our UWB-enabled devices and SaaS, enhancing real-time tracking and monitoring indoors.</p>
+                        </div>
+
+                        <div class="home-dashboard">
+                            <img src="assets/images/saas-2.png" alt="" style="z-index: -1;" class="img-fluid">
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container--> 
+        </section><!--end section-->
+        <!-- Hero End -->
+
+
+        <!-- Setup Start -->
+        <section class="section overflow-hidden" id="setup">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h6 class="text-primary font-weight-normal mb-3">Setup is a breeze!</h6>
+                            <h4 class="title mb-4">How It Works ?</h4>
+                            <p class="text-muted para-desc mx-auto mb-0">Designed for effortless setup, our products ensure you can start tracking and monitoring with minimal effort and maximum efficiency.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                        <div class="feature position-relative text-center">
+                            <div class="p-4 rounded position-relative overflow-hidden">
+                                <div class="icon text-primary">
+                                    <i class="uim uim-dialpad"></i>
+                                    <img src="assets/images/shape-1.png" class="avatar avatar-small icon-shape" alt="">
+                                </div>
+                                <div class="content mt-4">
+                                    <h5><a href="javascript:void(0)" class="title text-dark">Choose Your Tracker</a></h5>
+                                    <p class="text-muted">Use our tracker or any UWB-enabled smartphone</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                        <div class="feature position-relative text-center">
+                            <div class="p-4 rounded position-relative overflow-hidden">
+                                <div class="icon text-primary">
+                                    <i class="uim uim-intercom-alt"></i>
+                                    <img src="assets/images/shape-1.png" class="avatar avatar-small icon-shape" alt="">
+                                </div>
+                                <div class="content mt-4">
+                                    <h5><a href="javascript:void(0)" class="title text-dark">Install Beacons</a></h5>
+                                    <p class="text-muted">Install as few as three beacons for full coverage</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                        <div class="feature position-relative text-center">
+                            <div class="p-4 rounded position-relative overflow-hidden">
+                                <div class="icon text-primary">
+                                    <i class="uim uim-box"></i>
+                                    <img src="assets/images/shape-1.png" class="avatar avatar-small icon-shape" alt="">
+                                </div>
+                                <div class="content mt-4">
+                                    <h5><a href="javascript:void(0)" class="title text-dark">Select Platform</a></h5>
+                                    <p class="text-muted">Opt for self-hosting or our cloud-based SaaS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                        <div class="feature position-relative text-center">
+                            <div class="p-4 rounded position-relative overflow-hidden">
+                                <div class="icon text-primary">
+                                    <i class="uim uim-analytics"></i>
+                                    <img src="assets/images/shape-1.png" class="avatar avatar-small icon-shape" alt="">
+                                </div>
+                                <div class="content mt-4">
+                                    <h5><a href="javascript:void(0)" class="title text-dark">Start Tracking</a></h5>
+                                    <p class="text-muted">Easily track assets within any indoor environment</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section>
+        <!-- Setup End -->
+
+            <!-- Setup Products -->
+        <section class="section bg-light overflow-hidden" id="products">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center">
+                            <h6 class="text-primary font-weight-normal mb-3">Products</h6>
+                            <h4 class="title mb-4">What We Do ?</h4>
+                            <p class="text-muted para-desc mx-auto mb-0">Designed for scalability and reliability, our solutions offer advanced tracking, effortless monitoring, and easy integration to transform your indoor positioning capabilities.</p>
+                        </div>
+                    </div><!--end dol-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-50">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="feature position-relative">
+                            <img src="assets/images/tracker.png" class="img-fluid" alt="">
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="section-title">
+                            <h5 class="title mb-4">Precision Tracker.</h5>
+                            <p class="text-muted para-desc">Elevate your tracking capabilities with our state-of-the-art device, using UWB for unmatched location accuracy and reliability.</p>
+                            <ul class="list-unstyled">
+                                <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Ultra-precise real-time location data within 10cm</li>
+                                <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Long battery life for continuous use</li>
+                                <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Robust design for industrial environments</li>
+                                <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Scalable for various facility sizes</li>
+                            </ul>
+                            <div class="mt-4">
+                                <a href="javascript:void(0)" class="btn btn-primary disabled" role="button" aria-disabled="true">Purchase</a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row align-items-center">
+                    <div class="col-md-6 order-1 order-md-2">
+                        <div class="feature position-relative">
+                            <img src="assets/images/beacon.png" class="img-fluid d-block mx-auto" alt="">
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="section-title">
+                            <h5 class="title mb-4">Robust Beacon.</h5>
+                            <p class="text-muted para-desc">Our beacons form a reliable network that guarantees extensive indoor coverage with straightforward setup and maintenance.</p>
+                            <ul class="list-unstyled">
+                                <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Extended range coverage</li>
+                                <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Minimal installation required</li>
+                                <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Durable construction for longevity</li>
+                                <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Energy-efficient operation</li>
+                            </ul>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="feature position-relative">
+                            <img src="assets/images/dashboard.png" class="img-fluid" alt="">
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="section-title">
+                            <h5 class="title mb-4">Smart Dashboard.</h5>
+                            <p class="text-muted para-desc">Harness the power of real-time data with our intuitive monitoring dashboard, designed to streamline operations and enhance decision-making.</p>
+                            <ul class="list-unstyled">
+                                <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Real-time asset tracking and monitoring</li>
+                                <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Customizable alerts and notifications</li>
+                                <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Comprehensive analytics tools</li>
+                                <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Multi-user access and control</li>
+                                <li class="mt-2"><i data-feather="check-circle" class="fea icon-sm text-primary me-2"></i>Secure data encryption</li>
+                            </ul>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+        </section><!--end section-->
+        <!-- Products End -->
+
+        <!-- Start Contact -->
+        <section class="section" id="contact">
+            <div class="container">
+                
+                <div class="row align-items-center">
+                    <div class="col-md-6 order-md-1 order-2 mt-md-5 mt-4 pt-2">
+                        <h4 class="title mb-4">Reach out !</h4>
+                        <p class="text-muted para-desc mx-auto mb-0">Need assistance or have questions? Reach out to our dedicated support team. We're here to help you optimize your indoor tracking solutions. Contact us via email, phone, or fill out our contact form below.</p>
+                    </div><!--end col-->
+
+                    <div class="col-md-6 order-md-2 order-1 mt-md-5 mt-4 pt-2">
+                        <div class="custom-form rounded shadow p-4">
+                            <div id="message"></div>
+                            <form name="contact-form" id="contact-form">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Your Name <span class="text-danger">*</span></label>
+                                            <input name="name" id="name" type="text" class="form-control" placeholder="First Name :">
+                                        </div>
+                                    </div><!--end col-->
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Your Email <span class="text-danger">*</span></label>
+                                            <input name="email" id="email" type="email" class="form-control" placeholder="Your email :">
+                                        </div>
+                                    </div><!--end col-->
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>Subject</label>
+                                            <input name="subject" id="subject" type="text" class="form-control" placeholder="Subject">
+                                        </div>
+                                    </div><!--end col-->
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>Comments</label>
+                                            <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Your Message :"></textarea>
+                                        </div>
+                                    </div>
+                                </div><!--end row-->
+                                <div class="row">
+                                    <div class="col-sm-12 text-center">
+                                        <button id="submit" name="contactSubmit" type="button" value="Submit"
+                                            class="submitBnt btn btn-primary w-100" onclick="sendEmail();">Send Message
+                                        </button>
+                                        <!-- <input type="submit" id="submit" name="send" class="submitBnt btn btn-primary w-100" value="Send Message"> -->
+                                        <div id="simple-msg"></div>
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                            </form><!--end form--> 
+                        </div><!--end custom-form-->
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End Contact -->
+
+        <!-- Footer Start -->
+        <footer class="bg-dark py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 mb-3">
+                        <div class="text-center">
+                            <a class="logo logo-footer" href="#">
+                                <img src="assets/images/svgs/echo-light.svg" height="25" alt="">
+                            </a>
+                            <ul class="list-unstyled social-icon social mb-0 mt-4">
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="github" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                            </ul><!--end icon-->
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+            <!-- Back to top -->    
+            <a href="#" class="back-to-top" id="back-to-top" title="Top"> 
+                <i class="mdi mdi-arrow-up icons bg-light text-dark"> </i> 
+            </a>
+            <!-- Back to top -->
+        </footer><!--end footer-->
+        <footer class="footer-bar bg-dark">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <p class="mb-0 footer-text para-desc mx-auto">© 2021 <span class="text-reset">echo</span>. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="http://shreethemes.in" target="_blank" class="text-reset">Shreethemes</a>.</p>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </footer><!--end footer-->
+        <!-- Footer End -->
+        
+        <!-- javascript -->
+        <script src="assets/scripts/bootstrap.bundle.min.js"></script>
+        <script src="assets/scripts/gumshoe.polyfills.min.js"></script>
+        <!-- Contact -->
+        <script src="assets/scripts/contact.js"></script>
+        <!-- Icon -->
+        <script src="assets/scripts/feather.min.js"></script>
+        <script src="https://unicons.iconscout.com/release/v4.0.8/script/monochrome/bundle.js"></script>
+        <!-- SLIDER -->
+        <script src="assets/scripts/tiny-slider.js "></script>
+        <script src="assets/scripts/tiny-slider-init.js "></script>
+        <!-- Tobii js -->
+        <script src="assets/scripts/tobii.min.js"></script>
+        <!-- Main Js -->
+        <script src="assets/scripts/app.js"></script>
+
+        <script type="text/javascript"
+                src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function () {
+                emailjs.init("user_HApfLmAf5uIk03DBpbzel");
+            })();
+        </script>
+    </body>
+</html>
